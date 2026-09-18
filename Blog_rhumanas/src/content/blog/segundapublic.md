@@ -2,7 +2,7 @@
 title: "LA FAMILIA COMO BASE DE LAS RELACIONES HUMANAS"
 description: "Explora cómo los vínculos familiares, la personalidad y el temperamento forman el cimiento del desarrollo integral humano y qué sucede cuando estos lazos flaquean."
 pubDate: "Sep 15 2026"
-heroImage: "/porse.jpeg"
+heroImage: "../../assets/porse.jpeg"
 ---
 
 <div align="center">
