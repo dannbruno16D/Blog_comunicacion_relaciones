@@ -5,7 +5,7 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://dannbruno16D.github.io',
-  base: '/Blog_comunicacion_relaciones',
+  base: process.env.ASTRO_BASE || '/Blog_comunicacion_relaciones',
   integrations: [mdx(), sitemap()],
   fonts: [
     {

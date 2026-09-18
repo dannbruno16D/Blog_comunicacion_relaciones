@@ -1,0 +1,19 @@
+services:
+  web:
+    image: node:22
+    working_dir: /app
+    volumes:
+      - ./Blog_rhumanas:/app
+      - /app/node_modules
+    ports:
+      - "3000:4321"
+    command: sh -c "npm install && npx astro dev --host 0.0.0.0 --port 4321"
+    environment:
+      - __VITE_ADDITIONAL_SERVER_ALLOWED_HOSTS
+      - ASTRO_BASE=/
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://localhost:4321/').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+      start_period: 60s
