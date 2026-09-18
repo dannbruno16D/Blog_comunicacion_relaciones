@@ -2,7 +2,7 @@
 title: "LA FAMILIA COMO BASE DE LAS RELACIONES HUMANAS"
 description: "Explora cómo los vínculos familiares, la personalidad y el temperamento forman el cimiento del desarrollo integral humano y qué sucede cuando estos lazos flaquean."
 pubDate: "Sep 15 2026"
-heroImage: "../../assets/porse.jpeg"
+heroImage: "/porse.jpeg"
 ---
 
 <div align="center">
@@ -23,9 +23,9 @@ Cada ser humano llega al tablero de la vida con una configuración única. Para 
 
 * **⚡ El Impulso Innato (Temperamento):** La chispa biológica y heredada con la que venimos al mundo. Es el ritmo automático de nuestra reacción ante el estrés, la alegría o el conflicto.
 * **🏛️ La Construcción Consciente (Personalidad):** El templo que edificamos sobre ese temperamento bruto, moldeado por los valores de casa, las lecciones del entorno y nuestras propias decisiones.
-![familia](/inter.jpeg)
 
 > *"La familia es el espejo inicial donde descubrimos el reflejo de quiénes somos... y el primer lugar del que a veces necesitamos distanciarnos para encontrarnos de verdad."*
+![familia](/inter.jpeg)
 ---
 
 ## ⚡ Fisuras: Cuando los Vínculos Claudican
