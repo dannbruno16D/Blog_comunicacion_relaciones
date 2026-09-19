@@ -6,7 +6,7 @@ import { defineConfig, fontProviders } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://tu-sitio.netlify.app', // <--- CAMBIA ESTO por tu link real de Netlify
+	site: 'https://example.com',
 	integrations: [mdx(), sitemap()],
 	fonts: [
 		{
