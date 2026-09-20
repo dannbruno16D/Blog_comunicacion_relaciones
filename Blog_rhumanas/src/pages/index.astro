@@ -1,0 +1,1034 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="es">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+
+	<body>
+		<Header />
+
+		<main>
+			<!-- =========================
+			     PORTADA
+			========================= -->
+			<section class="hero">
+				<div class="hero-contenido">
+					<span class="etiqueta">Comunicación y Relaciones Humanas</span>
+
+					<h1>
+						Conectar, comprender
+						<span>y comunicar</span>
+					</h1>
+
+					<p>
+						La comunicación forma parte de nuestra vida diaria.
+						A través de ella compartimos ideas, expresamos emociones,
+						resolvemos conflictos y construimos relaciones con otras personas.
+					</p>
+
+					<div class="hero-botones">
+						<a href="#aprender" class="boton principal">
+							Explorar el tema ↓
+						</a>
+
+						<a href="/blog" class="boton secundario">
+							Ver publicaciones →
+						</a>
+					</div>
+				</div>
+
+				<div class="hero-imagen">
+					<div class="circulo circulo-1"></div>
+					<div class="circulo circulo-2"></div>
+
+					<img
+						src="/images/inicio/comunicacion-personas.jpg"
+						alt="Personas conversando y comunicándose"
+					/>
+
+					<div class="mensaje-flotante mensaje-1">
+						<span>💬</span>
+						Comunicación
+					</div>
+
+					<div class="mensaje-flotante mensaje-2">
+						<span>🤝</span>
+						Relaciones
+					</div>
+				</div>
+			</section>
+
+			<!-- =========================
+			     PRESENTACIÓN
+			========================= -->
+			<section id="aprender" class="introduccion aparecer">
+				<div class="titulo-seccion">
+					<span>¿De qué trata esta materia?</span>
+					<h2>Comunicación y Relaciones Humanas</h2>
+
+					<p>
+						La materia estudia la manera en que las personas se comunican,
+						interactúan y construyen vínculos en diferentes ambientes como
+						la familia, la escuela, el trabajo y la sociedad.
+					</p>
+				</div>
+
+				<div class="conceptos">
+					<article class="concepto concepto-azul">
+						<div class="icono">💬</div>
+						<h3>Comunicación</h3>
+
+						<p>
+							Es el proceso mediante el cual intercambiamos información,
+							ideas, sentimientos y experiencias.
+						</p>
+
+						<button
+							class="mostrar"
+							data-target="extra-comunicacion"
+						>
+							Conocer más
+						</button>
+
+						<div id="extra-comunicacion" class="contenido-extra">
+							<p>
+								Una comunicación efectiva requiere saber expresar nuestras
+								ideas, pero también escuchar, interpretar y comprender a los demás.
+							</p>
+						</div>
+					</article>
+
+					<article class="concepto concepto-morado">
+						<div class="icono">🤝</div>
+						<h3>Relaciones humanas</h3>
+
+						<p>
+							Son los vínculos que establecemos con otras personas mediante
+							la convivencia, el respeto y la comunicación.
+						</p>
+
+						<button
+							class="mostrar"
+							data-target="extra-relaciones"
+						>
+							Conocer más
+						</button>
+
+						<div id="extra-relaciones" class="contenido-extra">
+							<p>
+								Las relaciones humanas saludables se fortalecen mediante
+								la empatía, el respeto, la confianza y la cooperación.
+							</p>
+						</div>
+					</article>
+
+					<article class="concepto concepto-naranja">
+						<div class="icono">🧠</div>
+						<h3>Comprensión</h3>
+
+						<p>
+							Comprender a otras personas nos permite reconocer diferentes
+							ideas, necesidades, emociones y puntos de vista.
+						</p>
+
+						<button
+							class="mostrar"
+							data-target="extra-comprension"
+						>
+							Conocer más
+						</button>
+
+						<div id="extra-comprension" class="contenido-extra">
+							<p>
+								La empatía y la escucha activa son herramientas esenciales
+								para comprender mejor a quienes nos rodean.
+							</p>
+						</div>
+					</article>
+				</div>
+			</section>
+
+			<!-- =========================
+			     COMUNICACIÓN
+			========================= -->
+			<section class="bloque bloque-comunicacion aparecer">
+				<div class="bloque-imagen">
+					<img
+						src="/images/inicio/comunicacion.jpg"
+						alt="Representación de la comunicación humana"
+					/>
+				</div>
+
+				<div class="bloque-texto">
+					<span class="mini-titulo">Comunicar es conectar</span>
+
+					<h2>La comunicación está presente todos los días</h2>
+
+					<p>
+						Nos comunicamos mediante palabras, gestos, expresiones,
+						imágenes, mensajes, sonidos y muchas otras formas.
+					</p>
+
+					<p>
+						Una comunicación adecuada nos ayuda a expresar lo que pensamos,
+						comprender a los demás y reducir los malentendidos.
+					</p>
+
+					<div class="datos">
+						<div>
+							<strong>👂</strong>
+							<span>Escuchar</span>
+						</div>
+
+						<div>
+							<strong>💭</strong>
+							<span>Comprender</span>
+						</div>
+
+						<div>
+							<strong>🗣️</strong>
+							<span>Expresar</span>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- =========================
+			     RELACIONES HUMANAS
+			========================= -->
+			<section class="bloque bloque-invertido aparecer">
+				<div class="bloque-imagen">
+					<img
+						src="/images/inicio/relaciones-humanas.jpg"
+						alt="Personas colaborando y desarrollando relaciones humanas"
+					/>
+				</div>
+
+				<div class="bloque-texto">
+					<span class="mini-titulo">Construimos vínculos</span>
+
+					<h2>¿Por qué son importantes las relaciones humanas?</h2>
+
+					<p>
+						Las relaciones humanas influyen en nuestra convivencia y en
+						la forma en que colaboramos con otras personas.
+					</p>
+
+					<p>
+						Aprender a comunicarnos de manera respetuosa nos permite
+						fortalecer nuestros vínculos y enfrentar mejor los conflictos.
+					</p>
+
+					<ul class="lista">
+						<li>✓ Favorecen el respeto</li>
+						<li>✓ Desarrollan la empatía</li>
+						<li>✓ Mejoran el trabajo en equipo</li>
+						<li>✓ Ayudan a resolver conflictos</li>
+					</ul>
+				</div>
+			</section>
+
+			<!-- =========================
+			     INTERACTIVO
+			========================= -->
+			<section class="interactivo aparecer">
+				<div class="titulo-seccion">
+					<span>Explora</span>
+					<h2>Elementos importantes para relacionarnos</h2>
+
+					<p>
+						Selecciona un concepto para descubrir por qué es importante.
+					</p>
+				</div>
+
+				<div class="selector">
+					<button class="selector-btn activo" data-concepto="escucha">
+						👂 Escucha
+					</button>
+
+					<button class="selector-btn" data-concepto="empatia">
+						❤️ Empatía
+					</button>
+
+					<button class="selector-btn" data-concepto="respeto">
+						🤝 Respeto
+					</button>
+
+					<button class="selector-btn" data-concepto="asertividad">
+						💬 Asertividad
+					</button>
+				</div>
+
+				<div class="resultado" id="resultado">
+					<div class="resultado-icono" id="resultado-icono">👂</div>
+
+					<div>
+						<h3 id="resultado-titulo">Escucha activa</h3>
+
+						<p id="resultado-texto">
+							Escuchar activamente implica prestar atención,
+							comprender el mensaje y demostrar interés por lo que
+							la otra persona está expresando.
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<!-- =========================
+			     TEMAS DEL BLOG
+			========================= -->
+			<section class="temas aparecer">
+				<div class="titulo-seccion">
+					<span>Aprende más</span>
+					<h2>Temas que encontrarás en el blog</h2>
+				</div>
+
+				<div class="temas-grid">
+					<a href="/blog" class="tema">
+						<span>👂</span>
+						<h3>Escucha activa</h3>
+						<p>
+							Aprende a escuchar y comprender mejor a los demás.
+						</p>
+					</a>
+
+					<a href="/blog" class="tema">
+						<span>🚧</span>
+						<h3>Barreras de comunicación</h3>
+						<p>
+							Descubre qué factores pueden dificultar la comunicación.
+						</p>
+					</a>
+
+					<a href="/blog" class="tema">
+						<span>💡</span>
+						<h3>Funciones de la comunicación</h3>
+						<p>
+							Conoce los diferentes propósitos que puede tener un mensaje.
+						</p>
+					</a>
+				</div>
+
+				<div class="centro">
+					<a href="/blog" class="boton principal">
+						Ir a todas las publicaciones →
+					</a>
+				</div>
+			</section>
+		</main>
+
+		<Footer />
+
+		<script>
+			// Mostrar / ocultar información de las tarjetas
+			document.querySelectorAll('.mostrar').forEach((boton) => {
+				boton.addEventListener('click', () => {
+					const id = boton.getAttribute('data-target');
+					const contenido = document.getElementById(id);
+
+					if (!contenido) return;
+
+					contenido.classList.toggle('visible');
+
+					boton.textContent = contenido.classList.contains('visible')
+						? 'Mostrar menos'
+						: 'Conocer más';
+				});
+			});
+
+			// Selector interactivo
+			const conceptos = {
+				escucha: {
+					icono: '👂',
+					titulo: 'Escucha activa',
+					texto:
+						'Escuchar activamente implica prestar atención, comprender el mensaje y demostrar interés por lo que la otra persona está expresando.',
+				},
+				empatia: {
+					icono: '❤️',
+					titulo: 'Empatía',
+					texto:
+						'La empatía permite intentar comprender los sentimientos, experiencias y puntos de vista de otras personas.',
+				},
+				respeto: {
+					icono: '🤝',
+					titulo: 'Respeto',
+					texto:
+						'El respeto permite reconocer las ideas, límites y diferencias de los demás, incluso cuando no pensamos de la misma manera.',
+				},
+				asertividad: {
+					icono: '💬',
+					titulo: 'Asertividad',
+					texto:
+						'La comunicación asertiva consiste en expresar nuestras ideas, necesidades y sentimientos de manera clara y respetuosa.',
+				},
+			};
+
+			const botones = document.querySelectorAll('.selector-btn');
+			const resultado = document.getElementById('resultado');
+			const icono = document.getElementById('resultado-icono');
+			const titulo = document.getElementById('resultado-titulo');
+			const texto = document.getElementById('resultado-texto');
+
+			botones.forEach((boton) => {
+				boton.addEventListener('click', () => {
+					const clave = boton.getAttribute('data-concepto');
+
+					if (!clave || !(clave in conceptos)) return;
+
+					const informacion = conceptos[clave];
+
+					botones.forEach((b) => b.classList.remove('activo'));
+					boton.classList.add('activo');
+
+					resultado?.classList.remove('cambiar');
+
+					setTimeout(() => {
+						if (icono) icono.textContent = informacion.icono;
+						if (titulo) titulo.textContent = informacion.titulo;
+						if (texto) texto.textContent = informacion.texto;
+
+						resultado?.classList.add('cambiar');
+					}, 100);
+				});
+			});
+
+			// Animación al aparecer mientras hacemos scroll
+			const elementos = document.querySelectorAll('.aparecer');
+
+			const observador = new IntersectionObserver(
+				(entradas) => {
+					entradas.forEach((entrada) => {
+						if (entrada.isIntersecting) {
+							entrada.target.classList.add('visible-scroll');
+						}
+					});
+				},
+				{
+					threshold: 0.12,
+				},
+			);
+
+			elementos.forEach((elemento) => observador.observe(elemento));
+		</script>
+	</body>
+</html>
+
+<style>
+	:global(html) {
+		scroll-behavior: smooth;
+	}
+
+	main {
+		width: 100%;
+		max-width: none;
+		padding: 0;
+		overflow: hidden;
+	}
+
+	/* PORTADA */
+
+	.hero {
+		min-height: 610px;
+		display: grid;
+		grid-template-columns: 1.05fr 0.95fr;
+		align-items: center;
+		gap: 60px;
+		padding: 70px max(6vw, 30px);
+		background:
+			radial-gradient(circle at 15% 10%, #dbeafe 0, transparent 35%),
+			radial-gradient(circle at 85% 80%, #f3e8ff 0, transparent 35%),
+			linear-gradient(135deg, #f8fbff, #ffffff);
+	}
+
+	.hero-contenido {
+		animation: entradaIzquierda 0.8s ease both;
+	}
+
+	.etiqueta,
+	.titulo-seccion > span,
+	.mini-titulo {
+		display: inline-block;
+		color: #6366f1;
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		font-size: 0.8rem;
+	}
+
+	.hero h1 {
+		font-size: clamp(2.7rem, 5vw, 5rem);
+		line-height: 1.03;
+		margin: 18px 0 24px;
+		max-width: 760px;
+		color: #172033;
+	}
+
+	.hero h1 span {
+		display: block;
+		background: linear-gradient(90deg, #2563eb, #7c3aed, #db2777);
+		background-clip: text;
+		-webkit-background-clip: text;
+		color: transparent;
+	}
+
+	.hero p {
+		font-size: 1.15rem;
+		line-height: 1.8;
+		color: #536074;
+		max-width: 650px;
+	}
+
+	.hero-botones {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 15px;
+		margin-top: 30px;
+	}
+
+	.boton {
+		display: inline-block;
+		padding: 13px 22px;
+		border-radius: 999px;
+		font-weight: 700;
+		text-decoration: none;
+		transition:
+			transform 0.25s ease,
+			box-shadow 0.25s ease;
+	}
+
+	.boton:hover {
+		transform: translateY(-3px);
+	}
+
+	.principal {
+		color: white;
+		background: linear-gradient(90deg, #2563eb, #7c3aed);
+		box-shadow: 0 8px 25px rgba(79, 70, 229, 0.25);
+	}
+
+	.secundario {
+		color: #4f46e5;
+		background: white;
+		border: 1px solid #d8dcff;
+	}
+
+	.hero-imagen {
+		position: relative;
+		display: flex;
+		justify-content: center;
+		animation: entradaDerecha 0.8s ease both;
+	}
+
+	.hero-imagen img {
+		position: relative;
+		z-index: 2;
+		width: min(100%, 560px);
+		aspect-ratio: 4 / 3;
+		object-fit: cover;
+		border-radius: 30px;
+		box-shadow: 0 25px 60px rgba(39, 55, 90, 0.2);
+		animation: flotar 5s ease-in-out infinite;
+	}
+
+	.circulo {
+		position: absolute;
+		border-radius: 50%;
+		filter: blur(2px);
+	}
+
+	.circulo-1 {
+		width: 180px;
+		height: 180px;
+		background: #bfdbfe;
+		top: -45px;
+		right: -20px;
+		animation: flotar 4s ease-in-out infinite;
+	}
+
+	.circulo-2 {
+		width: 130px;
+		height: 130px;
+		background: #ddd6fe;
+		bottom: -35px;
+		left: -10px;
+		animation: flotar 4.5s ease-in-out infinite reverse;
+	}
+
+	.mensaje-flotante {
+		position: absolute;
+		z-index: 3;
+		background: rgba(255, 255, 255, 0.95);
+		padding: 12px 18px;
+		border-radius: 14px;
+		box-shadow: 0 10px 30px rgba(40, 50, 80, 0.17);
+		font-weight: 700;
+		color: #303850;
+	}
+
+	.mensaje-flotante span {
+		margin-right: 6px;
+	}
+
+	.mensaje-1 {
+		left: -15px;
+		top: 20%;
+		animation: flotar 3s ease-in-out infinite;
+	}
+
+	.mensaje-2 {
+		right: -15px;
+		bottom: 15%;
+		animation: flotar 3.5s ease-in-out infinite reverse;
+	}
+
+	/* SECCIONES GENERALES */
+
+	.introduccion,
+	.interactivo,
+	.temas {
+		padding: 90px max(6vw, 30px);
+	}
+
+	.titulo-seccion {
+		text-align: center;
+		max-width: 760px;
+		margin: 0 auto 45px;
+	}
+
+	.titulo-seccion h2 {
+		font-size: clamp(2rem, 4vw, 3rem);
+		color: #192235;
+		margin: 10px 0 15px;
+	}
+
+	.titulo-seccion p {
+		color: #667085;
+		font-size: 1.05rem;
+		line-height: 1.8;
+	}
+
+	/* CONCEPTOS */
+
+	.conceptos {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 24px;
+		max-width: 1150px;
+		margin: auto;
+	}
+
+	.concepto {
+		background: white;
+		padding: 28px;
+		border-radius: 20px;
+		box-shadow: 0 8px 30px rgba(38, 48, 75, 0.09);
+		border-top: 5px solid;
+		transition:
+			transform 0.3s ease,
+			box-shadow 0.3s ease;
+	}
+
+	.concepto:hover {
+		transform: translateY(-8px);
+		box-shadow: 0 16px 38px rgba(38, 48, 75, 0.15);
+	}
+
+	.concepto-azul {
+		border-color: #3b82f6;
+	}
+
+	.concepto-morado {
+		border-color: #8b5cf6;
+	}
+
+	.concepto-naranja {
+		border-color: #f59e0b;
+	}
+
+	.icono {
+		font-size: 2.4rem;
+		margin-bottom: 12px;
+	}
+
+	.concepto h3 {
+		color: #202939;
+		font-size: 1.3rem;
+		margin-bottom: 12px;
+	}
+
+	.concepto p {
+		color: #667085;
+		line-height: 1.7;
+	}
+
+	.mostrar {
+		border: 0;
+		background: #eef2ff;
+		color: #4f46e5;
+		font-weight: 700;
+		padding: 9px 16px;
+		border-radius: 999px;
+		cursor: pointer;
+		transition: 0.2s;
+	}
+
+	.mostrar:hover {
+		background: #4f46e5;
+		color: white;
+	}
+
+	.contenido-extra {
+		display: grid;
+		grid-template-rows: 0fr;
+		transition: grid-template-rows 0.4s ease;
+	}
+
+	.contenido-extra p {
+		overflow: hidden;
+		margin: 0;
+	}
+
+	.contenido-extra.visible {
+		grid-template-rows: 1fr;
+	}
+
+	.contenido-extra.visible p {
+		margin-top: 15px;
+	}
+
+	/* BLOQUES CON IMÁGENES */
+
+	.bloque {
+		max-width: 1200px;
+		margin: 30px auto 100px;
+		padding: 0 30px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		align-items: center;
+		gap: 65px;
+	}
+
+	.bloque-invertido .bloque-imagen {
+		order: 2;
+	}
+
+	.bloque-imagen img {
+		width: 100%;
+		height: 410px;
+		object-fit: cover;
+		border-radius: 25px;
+		box-shadow: 0 18px 45px rgba(38, 48, 75, 0.15);
+		transition: transform 0.4s ease;
+	}
+
+	.bloque-imagen img:hover {
+		transform: scale(1.025) rotate(-0.5deg);
+	}
+
+	.bloque-texto h2 {
+		font-size: clamp(2rem, 3vw, 2.8rem);
+		line-height: 1.2;
+		margin: 12px 0 20px;
+		color: #202939;
+	}
+
+	.bloque-texto p {
+		color: #667085;
+		font-size: 1.05rem;
+		line-height: 1.8;
+	}
+
+	.datos {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 12px;
+		margin-top: 25px;
+	}
+
+	.datos div {
+		background: #f6f7ff;
+		padding: 12px 16px;
+		border-radius: 12px;
+		display: flex;
+		align-items: center;
+		gap: 8px;
+	}
+
+	.lista {
+		list-style: none;
+		padding: 0;
+		margin: 25px 0 0;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 12px;
+	}
+
+	.lista li {
+		background: #f5f3ff;
+		border-radius: 10px;
+		padding: 12px 15px;
+		color: #514b72;
+	}
+
+	/* SECCIÓN INTERACTIVA */
+
+	.interactivo {
+		background: linear-gradient(135deg, #f4f7ff, #faf5ff);
+	}
+
+	.selector {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 12px;
+		margin-bottom: 30px;
+	}
+
+	.selector-btn {
+		border: 1px solid #dddfff;
+		background: white;
+		color: #4e5670;
+		padding: 12px 20px;
+		border-radius: 999px;
+		font-weight: 700;
+		cursor: pointer;
+		transition: 0.25s ease;
+	}
+
+	.selector-btn:hover,
+	.selector-btn.activo {
+		background: #4f46e5;
+		color: white;
+		transform: translateY(-2px);
+		box-shadow: 0 8px 22px rgba(79, 70, 229, 0.2);
+	}
+
+	.resultado {
+		max-width: 800px;
+		margin: auto;
+		background: white;
+		border-radius: 22px;
+		padding: 30px;
+		display: flex;
+		gap: 22px;
+		align-items: center;
+		box-shadow: 0 15px 40px rgba(61, 69, 100, 0.1);
+	}
+
+	.resultado.cambiar {
+		animation: aparecerResultado 0.35s ease;
+	}
+
+	.resultado-icono {
+		min-width: 75px;
+		height: 75px;
+		display: grid;
+		place-items: center;
+		background: #eef2ff;
+		border-radius: 18px;
+		font-size: 2.3rem;
+	}
+
+	.resultado h3 {
+		margin: 0 0 8px;
+		color: #202939;
+	}
+
+	.resultado p {
+		margin: 0;
+		color: #667085;
+		line-height: 1.7;
+	}
+
+	/* TEMAS */
+
+	.temas-grid {
+		max-width: 1100px;
+		margin: auto;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 22px;
+	}
+
+	.tema {
+		background: white;
+		border: 1px solid #eceef5;
+		padding: 28px;
+		border-radius: 18px;
+		text-decoration: none;
+		color: inherit;
+		transition: 0.3s ease;
+	}
+
+	.tema:hover {
+		transform: translateY(-7px);
+		border-color: #c7c9ff;
+		box-shadow: 0 13px 35px rgba(53, 63, 100, 0.12);
+	}
+
+	.tema > span {
+		display: block;
+		font-size: 2.4rem;
+		margin-bottom: 15px;
+	}
+
+	.tema h3 {
+		margin: 0 0 10px;
+		color: #252d3d;
+	}
+
+	.tema p {
+		color: #667085;
+		margin: 0;
+		line-height: 1.6;
+	}
+
+	.centro {
+		text-align: center;
+		margin-top: 40px;
+	}
+
+	/* ANIMACIONES DE SCROLL */
+
+	.aparecer {
+		opacity: 0;
+		transform: translateY(35px);
+		transition:
+			opacity 0.7s ease,
+			transform 0.7s ease;
+	}
+
+	.aparecer.visible-scroll {
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	@keyframes flotar {
+		0%,
+		100% {
+			transform: translateY(0);
+		}
+
+		50% {
+			transform: translateY(-12px);
+		}
+	}
+
+	@keyframes entradaIzquierda {
+		from {
+			opacity: 0;
+			transform: translateX(-35px);
+		}
+
+		to {
+			opacity: 1;
+			transform: translateX(0);
+		}
+	}
+
+	@keyframes entradaDerecha {
+		from {
+			opacity: 0;
+			transform: translateX(35px);
+		}
+
+		to {
+			opacity: 1;
+			transform: translateX(0);
+		}
+	}
+
+	@keyframes aparecerResultado {
+		from {
+			opacity: 0;
+			transform: scale(0.97);
+		}
+
+		to {
+			opacity: 1;
+			transform: scale(1);
+		}
+	}
+
+	/* CELULARES */
+
+	@media (max-width: 850px) {
+		.hero {
+			grid-template-columns: 1fr;
+			text-align: center;
+			padding-top: 50px;
+		}
+
+		.hero p {
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.hero-botones {
+			justify-content: center;
+		}
+
+		.hero-imagen {
+			max-width: 600px;
+			margin: auto;
+		}
+
+		.conceptos,
+		.temas-grid {
+			grid-template-columns: 1fr;
+		}
+
+		.bloque {
+			grid-template-columns: 1fr;
+			gap: 30px;
+		}
+
+		.bloque-invertido .bloque-imagen {
+			order: 0;
+		}
+
+		.lista {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	@media (max-width: 550px) {
+		.hero {
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+
+		.introduccion,
+		.interactivo,
+		.temas {
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+
+		.hero h1 {
+			font-size: 2.7rem;
+		}
+
+		.mensaje-flotante {
+			font-size: 0.8rem;
+			padding: 9px 12px;
+		}
+
+		.resultado {
+			flex-direction: column;
+			text-align: center;
+		}
+
+		.bloque-imagen img {
+			height: 270px;
+		}
+	}
+</style>
