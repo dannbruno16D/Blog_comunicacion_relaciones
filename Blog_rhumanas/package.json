@@ -16,9 +16,17 @@
     "@astrojs/rss": "^4.0.19",
     "@astrojs/sitemap": "^3.7.4",
     "astro": "^7.3.1",
+<<<<<<< HEAD
+=======
+    "run": "^2.1.4",
+>>>>>>> f086adcb592fa591929954f12bb9dffa8535bf0f
     "sharp": "^0.35.0"
   },
   "allowScripts": {
     "esbuild": true
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> f086adcb592fa591929954f12bb9dffa8535bf0f

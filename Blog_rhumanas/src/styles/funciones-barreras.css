@@ -1,0 +1,100 @@
+.introduccion-destacada {
+  background: linear-gradient(135deg, #eef5ff, #f8f0ff);
+  border-left: 5px solid #6366f1;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 25px 0;
+}
+
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+  margin: 30px 0;
+}
+
+.tarjeta {
+  padding: 22px;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.10);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tarjeta:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.16);
+}
+
+.tarjeta h3 {
+  margin-top: 0;
+}
+
+.informativa {
+  border-top: 5px solid #3b82f6;
+}
+
+.expresiva {
+  border-top: 5px solid #ec4899;
+}
+
+.apelativa {
+  border-top: 5px solid #f59e0b;
+}
+
+.fatica {
+  border-top: 5px solid #10b981;
+}
+
+.metalinguistica {
+  border-top: 5px solid #8b5cf6;
+}
+
+.poetica {
+  border-top: 5px solid #ef4444;
+}
+
+.imagen-post {
+  width: 100%;
+  border-radius: 16px;
+  margin: 25px 0;
+  transition: transform 0.4s ease;
+}
+
+.imagen-post:hover {
+  transform: scale(1.02);
+}
+
+.barrera {
+  background: #fff7ed;
+  border-left: 5px solid #f97316;
+  padding: 16px 20px;
+  margin: 15px 0;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+
+.barrera:hover {
+  transform: translateX(6px);
+}
+
+.ejemplo {
+  background: #f0fdf4;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 25px 0;
+  border: 1px solid #bbf7d0;
+}
+
+.conclusion {
+  background: linear-gradient(135deg, #eef2ff, #fdf2f8);
+  padding: 25px;
+  border-radius: 16px;
+  margin-top: 30px;
+}
+
+@media (max-width: 700px) {
+  .tarjetas {
+    grid-template-columns: 1fr;
+  }
+}

@@ -32,4 +32,8 @@ export default defineConfig({
 			},
 		},
 	],
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> f086adcb592fa591929954f12bb9dffa8535bf0f
