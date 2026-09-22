@@ -13,11 +13,9 @@ body {
   background: linear-gradient(135deg, #eef2ff, #e0f2fe);
   padding: 1.5rem;
   border-radius: 12px;
-  border-left: 6px solid #3b82f6;
 }
 
 .reflexion-destacada {
-  border-left: 4px solid #6366f1 !important;
   background: #ede9fe !important;
   padding: 1.2rem 1.5rem !important;
   border-radius: 0 12px 12px 0;
