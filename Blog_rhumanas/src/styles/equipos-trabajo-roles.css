@@ -1,0 +1,126 @@
+body {
+  font-family: var(--font-atkinson), sans-serif;
+  color: #1e293b;
+  background-color: #f8fafc;
+  line-height: 1.8;
+}
+
+.introduccion-creativa {
+  font-size: 1.15rem;
+  line-height: 1.9;
+  margin: 1.5rem 0;
+  color: #334155;
+  background: linear-gradient(135deg, #eef2ff, #e0f2fe);
+  padding: 1.5rem;
+  border-radius: 12px;
+  border-left: 6px solid #3b82f6;
+}
+
+.reflexion-destacada {
+  border-left: 4px solid #6366f1 !important;
+  background: #ede9fe !important;
+  padding: 1.2rem 1.5rem !important;
+  border-radius: 0 12px 12px 0;
+  margin: 2rem 0 !important;
+  font-style: italic;
+  color: #312e81;
+}
+
+.tarjeta-bloque {
+  padding: 24px;
+  border-radius: 16px;
+  margin: 25px 0;
+  background: #ffffff;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+  border-left: 6px solid #cbd5e1;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tarjeta-bloque:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09);
+}
+
+.tarjeta-bloque.color-1 {
+  border-left-color: #3b82f6;
+}
+
+.tarjeta-bloque.color-2 {
+  border-left-color: #10b981;
+}
+
+.tarjeta-bloque.color-3 {
+  border-left-color: #8b5cf6;
+}
+
+.tarjetas-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin: 35px 0;
+}
+
+.tarjeta-creativa {
+  padding: 26px;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2e8f0;
+  transition: transform 0.3s ease;
+}
+
+.tarjeta-creativa:hover {
+  transform: translateY(-6px);
+}
+
+.tarjeta-creativa.primaria {
+  border-top: 6px solid #3b82f6;
+}
+
+.tarjeta-creativa.secundaria {
+  border-top: 6px solid #10b981;
+}
+
+.pilares-equipo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin: 35px 0;
+}
+
+.pilar-card {
+  background: #ffffff;
+  padding: 22px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  border: 1px solid #e2e8f0;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 18px;
+  margin: 30px 0;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.4s ease;
+}
+
+img:hover {
+  transform: scale(1.02);
+}
+
+.conclusion-creativa {
+  background: linear-gradient(135deg, #e0e7ff, #fce7f3);
+  padding: 35px;
+  border-radius: 20px;
+  margin-top: 45px;
+  border: 1px solid #c7d2fe;
+}
+
+@media (max-width: 768px) {
+  .tarjetas-grid,
+  .pilares-equipo {
+    grid-template-columns: 1fr;
+  }
+}
